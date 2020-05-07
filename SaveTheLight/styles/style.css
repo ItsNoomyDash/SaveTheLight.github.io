@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic');
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#979797, #292B31);
+	box-shadow: inset 2px 2px 2px #000;
+}
+::-webkit-scrollbar{
+	color: #303030;
+	box-shadow: inset 2px 2px 5px #000;
+}
+
+body{
+	  background-color: #14171A;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+}
+.part1{
+  	background-color: #0C1013;
+	font-size: 20px;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: -10px;
+	margin-left: -8px;
+	box-shadow: 5px 5px 10px #000;
+	white-space:nowrap
+}
+.container1{
+	white-space:nowrap
+}
+.name{
+	display: inline;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 200px;
+	font-family: 'Russo One';
+	font-weight: 500;
+}
+.discription{
+	margin-left: 200px;
+	margin-bottom: -63px;
+	padding-bottom: -20px;
+	font-size: 20px;
+	color: #888888;
+	font-family: 'Russo One';
+	font-weight: 500;
+}
+.MyVk{
+	display: inline;
+	color: #fff;
+	font-size: 10px;
+	font-family: 'Russo One';
+	margin-left: 1032px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 10px 10px;
+	transition: background .1s linear;
+}
+.MyVk:hover{
+	color: #0C1013;
+	background-color: #fff;
+}
+.VkGroup{
+	display: inline;
+	color: #fff;
+	font-size: 10px;
+	font-family: 'Russo One';
+	margin-left: 1000px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 10px 10px;
+	transition: background .1s linear;
+}
+.VkGroup:hover{
+	color: #0C1013;
+	background-color: #fff;
+}
+.download{
+	color: #fff;
+	background-color: #83B700;
+	border-radius: 5px;
+	padding: 10px 10px;
+	font-size: 45px;
+	font-family: 'Russo One';
+	margin-left: 100px;
+	text-decoration: none;
+	transition: background .1s linear;
+	box-shadow: 3px 3px 15px #C8E385;
+}
+.download:hover{
+	border-color: #83B700;
+	background: linear-gradient(-45deg, #F79F30, #84BA00);
+	background-color: #fff;
+}
+.bg_img{
+	border: 5px solid #000;
+	border-radius: 10px;
+	margin-bottom: -300px;
+	box-shadow: 3px 3px 15px #000;
+}
+.text_bg_img{
+	font-size: 35px;
+	color: #fff;
+	font-family: 'Russo One';
+	background-color: #0C1013;
+	box-shadow: 3px 3px 15px #000;
+	margin-right: 560px;
+	margin-top: 50px;
+	transition: background .1s linear;
+	padding: 10px;
+	border-radius: 10px;
+}
